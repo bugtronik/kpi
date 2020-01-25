@@ -23,6 +23,17 @@
   </properties>
 
   <dependencies>
+
+    <!-- ==== Modules ==== -->
+    <dependency>
+      <groupId>org.setrag.kpi</groupId>
+      <artifactId>okapi-business</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.setrag.kpi</groupId>
+      <artifactId>okapi-model</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

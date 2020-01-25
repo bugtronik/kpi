@@ -21,4 +21,35 @@
     	<module>okapi-consumer</module>
     	<module>okapi-model</module>
 	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- ======== Modules ======== -->
+			<dependency>
+				<groupId>org.setrag.kpi</groupId>
+				<artifactId>okapi-batch</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.setrag.kpi</groupId>
+				<artifactId>okapi-webapp</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.setrag.kpi</groupId>
+				<artifactId>okapi-business</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.setrag.kpi</groupId>
+				<artifactId>okapi-consumer</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.setrag.kpi</groupId>
+				<artifactId>okapi-model</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
