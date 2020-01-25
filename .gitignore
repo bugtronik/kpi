@@ -1,0 +1,5 @@
+okapi-batch/target/
+okapi-business/target/
+okapi-consumer/target/
+okapi-model/target/
+okapi-webapp/target
